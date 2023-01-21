@@ -1,4 +1,9 @@
-## External resources
+## References
+
+- **Ref [1]** - [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/index.html) - [github source](https://github.com/esp8266/Arduino/blob/master/doc/index.rst) - an opensource documentation portal about esp8266 and arduino.
+
+
+## Other external resources, experiences
 
 Overall
 - [ephesossoftware (fr) how to make you own wi-fi button](https://fr.ephesossoftware.com/articles/diy/how-to-make-your-own-wi-fi-connected-button-with-esp8266.html) : design with led, arduino setup, test with sleep mode, test with ifttt

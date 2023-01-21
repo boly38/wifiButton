@@ -112,3 +112,6 @@ Let's play with upper left button to (1) compile and verify the code (2) send th
 Looking at the bottom of your IDE in the serial monitor : you must get `hello !` each 10 seconds.
 
 ![Arduino MVP Hello](./images/ArduinoMVPHello.JPG)
+
+### Next step
+- you could get more details about ESP library and IDA configuration via [ref](./99_external_resources.md) [1] [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/index.html)

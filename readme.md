@@ -13,6 +13,9 @@ Goal of this project is to find how to use ESP8266 card to create a simple WiFi 
 - [setup ESP8266 card driver](./doc/00_setupDriver.md)
 - [configure Arduino IDE for ESP8266](./doc/10_setupIDE.md)
 
+## Sample
+- (1) [flash the on-board LED](./doc/200_flashLed.md)
+
 [//]: <> (TODO: first code first flash)
 [//]: <> (TODO: blink sample)
 

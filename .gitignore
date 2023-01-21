@@ -1,0 +1,7 @@
+# local resources
+incomming/
+*dontpush*
+
+# IntelliJ
+*.iml
+.idea/

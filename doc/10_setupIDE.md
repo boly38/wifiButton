@@ -113,5 +113,11 @@ Looking at the bottom of your IDE in the serial monitor : you must get `hello !`
 
 ![Arduino MVP Hello](./images/ArduinoMVPHello.JPG)
 
-### Next step
-- you could get more details about ESP library and IDA configuration via [ref](./99_external_resources.md) [1] [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/index.html)
+### Next steps
+- *for men in a hurry*: try to increase upload speed. 
+
+- *for Bug killer*: if you pay attention, you will have noticed that the `setup()` method does not correctly print messages to serial. Have fun researching the `Serial` documentation  on Internet to find out why and how to fix it. the solution lies in [helloWorld_fixed.c](../sample/helloworld/helloWorld_fixed.c)
+
+![Arduino MVP Hello Fixed !](./images/ArduinoMVPHelloFixed.JPG)
+
+- *for advanced users*: you could get more details about ESP library and IDA configuration via [ref](./99_external_resources.md) [1] [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/index.html)

@@ -39,7 +39,7 @@ void loop() {
 With this sample, you understand how to init the LED_BUILTIN, how to put it on or off after some delay.
 
 ### Next steps
-
+- *for conventional people*: the next step is to [reset](./30_reset.md)
 - *for Junior DEV*: Improve the sample yourself !
 
 Try to update this code to fit your own needs. For example, you could create a function that put the led on 200ms and off 100ms and call this function multiple times.

@@ -1,4 +1,7 @@
-[< back](../readme.md)
+[< home](../readme.md)
+
+[< previous: 1: set up IDE ](./10_setupIDE.md) | 2: flash LED | [next: 3: reset >](./30_reset.md)
+
 
 # Sample : flash the on-board LED
 

@@ -2,27 +2,28 @@
 
 ## Introduction
 
-Goal of this project is to find how to use ESP8266 card to create a simple WiFi button.
+The goal of this project is to figure out how to use the ESP8266 board to create a simple WiFi button.
 
 ![ESP 8266 WiFi card](./doc/images/esp8266WiFi_CH340G.JPG)
 
-- One constraint: help pages must be easy to understand for NooB and accept one simple introduction and a sample per step ^^.
+In the manner of a tutorial, step by step, let's learn together with this project to allow us to understand how to create this button.
+
+- One constraint: each help page must be easy to understand for NooB, accept a simple introduction, a fairly simple sample, and instructions for the next step ^^.
+
+- If you think a step is not clear enough or has problems, please report it or contribute.
 
 ## Steps to follow
 
-- [setup ESP8266 card driver](./doc/00_setupDriver.md)
-- [configure Arduino IDE for ESP8266](./doc/10_setupIDE.md)
+- [step 0) setup hardware : ESP8266 card driver](./doc/00_setupDriver.md)
+- [step 1) configure Arduino IDE for ESP8266](./doc/10_setupIDE.md) (mvp code inside)
+- [step 2) flash the on-board LED](./doc/20_flashLed.md) (blink code inside)
+- [step 3) the RESET action](./doc/30_reset.md)
 
-## Sample
-- (1) [flash the on-board LED](./doc/200_flashLed.md)
 
-[//]: <> (TODO: first code first flash)
-[//]: <> (TODO: blink sample)
+## How to contribute to the `wifiButton` project ?
 
-## Contribute
+Contributions are welcome.
 
-Contribution are welcome.
+I am a beginner in electronics, a little less in development. However, errors or simplifications can occur at all levels. Feel free to add your grain of salt. Be critical and constructive with tickets or pull requests.
 
-I am a beginner in electronics, a little less in development. However, errors or simplifications may occur at all levels. Don't hesitate to add your grain of salt. Be critical and constructive with tickets or pull requests.
-
-As I'm not an expert at all, I rely on some Internet [sources](./doc/99_external_resources.md) and it's possible to encounter some error or `TODO` in some pages: you could provide more details to fix or complete them.
+As I'm not an expert at all, I rely on some Internet [sources](./doc/99_external_resources.md) and it's possible to encounter some error or `TODO` in some pages: you could provide more details to correct or complete them.

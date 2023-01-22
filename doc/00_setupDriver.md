@@ -1,8 +1,10 @@
-[< back](../readme.md)
+[< home](../readme.md) 
+
+0: set up hardware | [next: 1: set up IDE >](./10_setupIDE.md)
 
 ## Introduction
 
-Goal of this page is to understand how to setup hardware: 
+Goal of this page is to understand how to set up hardware: 
 - buy an ESP8266 CARD.
 - connect the card to your workstation.
 - update your workstation to let him understand how to exchange with the card.
@@ -13,6 +15,7 @@ Goal of this page is to understand how to setup hardware:
 - Buy your card : cf. § `Card shopping`
 - Connect your card : cf. § `Card connect`
 - Install your driver : cf. § `Card driver`
+- the next step is to [set up IDE](./10_setupIDE.md)
 
 ## Card chip
 
@@ -35,7 +38,7 @@ If you already have an ESP8266 CARD. Here is the diff between CP2112 and CH340 :
 - - CP2112 is a square chip, 
 - - CH340 is smallest, long and rectangular.
 
-![ESP 8266 WiFi card](./images/esp8266WiFi_CH340G_chip.JPG)
+![ESP 8266 WiFi card](./images/00/esp8266WiFi_CH340G_chip.JPG)
 
 
 ## Card shopping
@@ -53,7 +56,7 @@ Here is some example:
 
 - Connect your cable to the card via (micro-B) USB
 - Connect your cable to host windows workstation via (Type-A) USB
-  ![usbType](./images/usb_types.jpg)
+  ![usbType](./images/00/usb_types.jpg)
   ![esp8266 WiFi CH340G](./images/esp8266WiFi_CH340G.JPG)
 
 
@@ -65,8 +68,8 @@ Installing driver corresponding to your card ship will help Windows host to unde
 - - open device manager : <kbd>Windows</kbd> + <kbd>x</kbd> and choose `Device manager` (aka `Gestionnaire de périphériques` in french)
 - scroll down to `Port COM`
 
-  ![deviceManagerCh340](./images/deviceManagerCh340.JPG)
-On this image we could confirm that Windows understant that there is a CH340 chip connected via USB with a dedicated COM PORT (COM4)
+  ![deviceManagerCh340](./images/00/deviceManagerCh340.JPG)
+On this image we could confirm that Windows understand that there is a CH340 chip connected via USB with a dedicated COM PORT (COM4)
 
 
 

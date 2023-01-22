@@ -1,4 +1,6 @@
-[< back](../readme.md)
+[< home](../readme.md)
+
+[< previous: 0: set up hardware](./00_setupDriver.md) | 1: set up IDE | [next: 2: flash LED >](./20_flashLed.md)
 
 ## Introduction
 
@@ -29,7 +31,7 @@ Steps to follow for the `Arduino IDE`:
 
 - IDE must import your device dedicated library via adding json definition in `| File > settings ` (aka `Fichier > Préférences` in french)
 
-![Arduino Preferences](./images/ArduinoPreferences.JPG)
+![Arduino Preferences](./images/10/ArduinoPreferences.JPG)
 
 - with help of [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/installing.html#boards-manager)
     - copy and install json
@@ -40,7 +42,7 @@ Example of added libraries :
 - esp32 par Espressif system - 1.0.5
 >https://dl.espressif.com/dl/package_esp32_index.json
 
-![Arduino Preferences Json List](./images/ArduinoPreferencesJsonList.JPG)
+![Arduino Preferences Json List](./images/10/ArduinoPreferencesJsonList.JPG)
 
 
 **Step 3** IDE card configuration
@@ -95,7 +97,7 @@ void loop() {// put your main code here, to run repeatedly:
 
 - open the serial monitor (aka `Moniteur série`) view (upper right button)
 
-![Arduino MVP Serial Speed](./images/ArduinoMVPSerialSpeed.JPG)
+![Arduino MVP Serial Speed](./images/10/ArduinoMVPSerialSpeed.JPG)
 
 **Warn:** please pay attention that the `serial speed` (in baud) you have set in `Serial.begin(115200);` must match Arduino "Serial Monitor" windows speed. In case of mismatch you will see some strange output in the console ;)
 
@@ -104,20 +106,20 @@ void loop() {// put your main code here, to run repeatedly:
 
 Let's play with upper left button to (1) compile and verify the code (2) send the code to your card.
 
-![Arduino MVP Verify Send](./images/ArduinoMVPVerifySend.JPG)
-![Arduino Upload](./images/ArduinoUpload.JPG)
+![Arduino MVP Verify Send](./images/10/ArduinoMVPVerifySend.JPG)
+![Arduino Upload](./images/10/ArduinoUpload.JPG)
 
 **Step 3** monitor the serial output
 
 Looking at the bottom of your IDE in the serial monitor : you must get `hello !` each 10 seconds.
 
-![Arduino MVP Hello](./images/ArduinoMVPHello.JPG)
+![Arduino MVP Hello](./images/10/ArduinoMVPHello.JPG)
 
 ### Next steps
 - *for men in a hurry*: try to increase upload speed. 
 
 - *for Bug killer*: if you pay attention, you will have noticed that the `setup()` method does not correctly print messages to serial. Have fun researching the `Serial` documentation  on Internet to find out why and how to fix it. the solution lies in [helloWorld_fixed.c](../sample/helloworld/helloWorld_fixed.c)
 
-![Arduino MVP Hello Fixed !](./images/ArduinoMVPHelloFixed.JPG)
+![Arduino MVP Hello Fixed !](./images/10/ArduinoMVPHelloFixed.JPG)
 
 - *for advanced users*: you could get more details about ESP library and IDA configuration via [ref](./99_external_resources.md) [1] [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/index.html)

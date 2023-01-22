@@ -116,10 +116,11 @@ Looking at the bottom of your IDE in the serial monitor : you must get `hello !`
 ![Arduino MVP Hello](./images/10/ArduinoMVPHello.JPG)
 
 ### Next steps
+- *for conventional people*: the next step is to [flash LED](./20_flashLed.md)
 - *for men in a hurry*: try to increase upload speed. 
 
 - *for Bug killer*: if you pay attention, you will have noticed that the `setup()` method does not correctly print messages to serial. Have fun researching the `Serial` documentation  on Internet to find out why and how to fix it. the solution lies in [helloWorld_fixed.c](../sample/helloworld/helloWorld_fixed.c)
 
 ![Arduino MVP Hello Fixed !](./images/10/ArduinoMVPHelloFixed.JPG)
 
-- *for advanced users*: you could get more details about ESP library and IDA configuration via [ref](./99_external_resources.md) [1] [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/index.html)
+- *for advanced users*: you could get more details about ESP library and IDA configuration via [Ref](./99_external_resources.md) [1] [arduino-esp8266.readthedocs.io](https://arduino-esp8266.readthedocs.io/en/latest/index.html)

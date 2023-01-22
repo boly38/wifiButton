@@ -1,6 +1,6 @@
 [< home](../readme.md)
 
-[< previous: 2: flash LED](./20_flashLed.md) | 3: reset
+[< previous: 2: flash LED](./20_flashLed.md) | 3: reset | [next: 4: deep sleep >](./40_deepSleep.md)
 
 ## Introduction
 
@@ -76,4 +76,6 @@ I'm still waiting for my electronics kit. In the meantime, I can still make this
 
 ![reset remote button](./images/30/resetRemoteButton.JPG)
 
-[//]: <> (TODO: ### Next steps )
+### Next steps
+- *for conventional people*: the next step is to [deep sleep](./40_deepSleep.md)
+- *for electronics PRO*: improve the example via schema and github PR :)

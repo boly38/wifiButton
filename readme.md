@@ -18,6 +18,7 @@ In the manner of a tutorial, step by step, let's learn together with this projec
 - [step 1) configure Arduino IDE for ESP8266](./doc/10_setupIDE.md) (mvp code inside)
 - [step 2) flash the on-board LED](./doc/20_flashLed.md) (blink code inside)
 - [step 3) the RESET action](./doc/30_reset.md)
+- [step 4) entering deep sleep mode](./doc/40_deepSleep.md)
 
 
 ## How to contribute to the `wifiButton` project ?

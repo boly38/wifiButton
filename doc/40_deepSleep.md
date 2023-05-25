@@ -1,6 +1,6 @@
 [< home](../readme.md)
 
-[< previous: 3: reset](./30_reset.md) | 4: deep sleep
+[< previous: 3: reset](./30_reset.md) | 4: deep sleep | [next: 5: wifi connect >](./50_wifiConnect.md)
 
 ## Introduction
 
@@ -12,7 +12,7 @@ Goal of this page is to understand how to put your board in deep sleep :
 
 ## Deep sleep: what's that ?
 
-While working with embedded devices that rely on a battery, power management is one of the very first question we have in mind. 
+While working with embedded devices that rely on a battery, power management is one of the very first question we have in mind.
 
 **Deep sleep** is one of the power management mode of the ESP8266 board. For example you could find some details in [Ref](./99_external_resources.md) [2] - [esp8266ex_datasheet_en](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf).
 
@@ -22,7 +22,7 @@ The documentation says that in this mode, the board is sleeping for all componen
 
 When we set the sleep mode, we could rely on some temporal unit (ex. [specific api notes](https://arduino-esp8266.readthedocs.io/en/latest/libraries.html#esp-specific-apis)) to wake up the board after `x` microseconds.
 
-Else we could ask to sleep *indefinitely*. 
+Else we could ask to sleep *indefinitely*.
 
 In both case reset (`RST`) action could wake up the board.
 
@@ -30,7 +30,6 @@ In both case reset (`RST`) action could wake up the board.
 For a WiFi button, our need is really simple:
 - on button push, wake-up the board to do some action,
 - re-enter into low power sleep mode until button is pushed again.
-
 
 
 So the **Deep sleep** mode is the best mode to fit our need. We will need understand how to activate this mode now.
@@ -79,11 +78,11 @@ void loop() {
 }
 ```
 
-Now you could permut 2 lines to see :
+### Next steps
+- *for conventional people*: the next step is [wifi connect](./50_wifiConnect.md)
+- *for curious*: permute 2 lines to see the behavior and understand it.
 ```c
   Serial.println("my setup action here");
   ESP.deepSleepInstant(0);// go to deep sleep without waiting for WiFi to shutdown
   Serial.println("my setup end");
 ```
-
-[//]: <> (TODO: ### Next steps )

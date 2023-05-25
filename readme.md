@@ -19,7 +19,13 @@ In the manner of a tutorial, step by step, let's learn together with this projec
 - [step 2) flash the on-board LED](./doc/20_flashLed.md) (blink code inside)
 - [step 3) the RESET action](./doc/30_reset.md)
 - [step 4) entering deep sleep mode](./doc/40_deepSleep.md)
+- [step 5) connect to the local WiFi](./doc/50_wifiConnect.md)
 
+- *(work in progress to complete this project)*
+
+[//]: <> (- [step 6\) send a discord message](./doc/60_postDiscord.md\))
+[//]: <> (- [step 7\) complete button program](./doc/70_completeProgram.md\))
+[//]: <> (- global hard configuration ?)
 
 ## How to contribute to the `wifiButton` project ?
 
